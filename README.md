@@ -1,77 +1,24 @@
-# Events Hub
+# 🌐 Events Hub – Nilgiri College  
 
-A responsive web application for browsing, registering, and managing campus events, announcements, winners, and admin tasks. Built with HTML, CSS, JavaScript, and Supabase as the backend.
+✨ **Events Hub** is a creative initiative developed by the **Computer Science Department of Nilgiri College** 🎓💻 to bring all college events together in one place. Instead of searching through notice boards or scattered announcements, this website acts as a **single window for the entire college community** 🌐.  
 
-## Features
+Whether it’s **cultural celebrations** 🎭, **technical workshops** 🔬, **inspiring seminars** 🎤, **sports competitions** 🏆, or important **college gatherings** 🎉 — everything is showcased here in a simple and engaging way.  
 
-- Browse upcoming and past events
-- View campus announcements
-- See winner spotlights
-- Manage your own registrations
-- Admin console for creating admins, events, announcements, winners, and registrations (simplified UI available)
-- Theming (light/dark mode)
+## ✨ Features
+- 📅 Browse upcoming events with details  
+- 🖼️ Explore colorful highlights from past occasions  
+- 🎉 Stay updated with every achievement and celebration  
+- 🌟 Smooth, clean, and modern design for easy navigation  
 
-## Directory Structure
+## 💡 Purpose
+The website creates a sense of connection by ensuring that no event is missed and every moment is celebrated. With its visually rich layout and simple navigation, it feels less like a formal notice board and more like a **living gallery of college life**.  
 
-```
-/ (project root)
-├── index.html             # Main landing page
-├── assets/                # Static assets
-│   ├── css/               # Stylesheets (base.css, admin.css)
-│   ├── images/            # Logo files (logo.png, logo2.png)
-│   └── js/                # JavaScript logic (public-main, auth, admin, utils)
-├── pages/                 # Additional HTML pages
-│   ├── events.html
-│   ├── announcements.html
-│   ├── winners.html
-│   ├── my-registrations.html
-│   └── login.html
-└── pages/admin/           # Admin console pages
-    ├── dashboard.html
-    ├── events.html
-    ├── announcements.html
-    ├── winners.html
-    ├── registrations.html
-    └── users.html
-```
+## 🚀 Built With
+- Modern **Web Technologies** (HTML, CSS, JavaScript)  
+- Deployed on **Vercel** for fast and reliable access  
 
-## Getting Started
+## 🎓 About
+**Events Hub** is not just a website — it’s a reflection of the college’s vibrant culture, creativity, and teamwork 💫. It stands as proof of how innovation from the Computer Science Department can serve the entire student body, making communication easier and campus life more exciting.  
 
-1. **Prerequisites**
-   - Node.js or Python installed (for local static server)
-   - Internet connection (for CDN dependencies)
-
-2. **Clone the repository**
-   ```bash
-   git clone <repo-url>
-   cd <project-folder>
-   ```
-
-3. **Supabase Setup**
-   - Sign up at [Supabase](https://supabase.com) and create a new project.
-   - In `assets/js/utils/supabase.js`, update `SB_URL` and `SB_ANON` with your project's URL and anon key.
-
-4. **Serve Locally**
-   ```bash
-   # Using Python
-   python -m http.server 8000
-
-   # Using Node.js (if you have http-server installed)
-   npx http-server -p 8000
-   ```
-   Open [http://localhost:8000](http://localhost:8000) in your browser.
-
-## Customization
-
-- **Logo**: Place `logo.png` (main site logo) and `logo2.png` (favicon) in `assets/images/`.
-- **Theme**: Toggle dark/light via the theme button in the header.
-- **Supabase Functions**: Serverless functions reside in `supabase/functions/` (TypeScript).
-
-## Deployment
-
-- Deploy to any static hosting (Netlify, Vercel, GitHub Pages).
-- Ensure the `assets/js/utils/supabase.js` file has correct production Supabase credentials.
-
-## License
-
-MIT © Nilgiri College CS Department
+---
+👨‍💻 Built with passion by the **CS Department of Nilgiri College**  
